@@ -1,0 +1,236 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+
+
+}
+
+.back{
+	margin:0px auto;
+	height: 100vh;
+	background-image: url(80745-apple_masvook_pro-netbuk-elektronnoe_ustrojstvo-apple-macbook-2880x1800.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-top: 30px;
+	box-sizing:border-box;
+	z-index: 1;
+}
+.back:after{
+	content: "";
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background:rgba(0,0,0, 0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	margin: -3px 0 0 450px;
+
+}
+.navlinks{
+	display: flex;
+	justify-content: space-around;
+}
+.navbar{
+
+top: 40px;
+left: 20%;
+
+	height: 55px;
+	position: absolute;
+	display: flex;
+
+	align-items: center;/*
+	background-color: rgba(0,0,0, 0.5);*/
+	
+	z-index: 3;
+	font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.logo img{
+
+
+	left: -30px;
+	position: relative;
+	z-index: 10;
+	cursor: pointer;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+
+	
+}
+
+nav ul li{
+	list-style: none;
+	margin-right: 50px;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	color:white;
+	font-size: 18px;
+	transition: 0.5s;
+}
+.navbar nav ul li:hover{
+	transition: 0.5s;
+}
+.navbar ul:hover li a{
+	filter: blur(1px);
+	transition: 0.5s;
+}
+.navbar ul:hover li a:hover{
+	filter:blur(0px);
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#go-top {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 600;
+	display: none;
+	margin: 25px;
+}
+#go-top a {
+	text-decoration: none;
+	border-radius: 15px;
+	display: flex;
+	height: 66px;
+	width: 60px;
+	line-height: 66px;
+	text-align: center;
+	background: ##0d0d0d;
+	color: #FFFFFF;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#go-top a i {
+	font-size: 20px;
+	line-height: inherit;
+}
+#go-top a:hover {
+	background: #303030;
+	color: #FFFFFF;
+}
+footer{
+	height: 250px;
+	background-color: #191919;
+	color: white;
+
+
+	font-family: 'Josefin Sans', sans-serif;
+}
+.navfoot  {
+	margin:0 0 0 20px; 
+	padding:60px 0 0 200px;
+
+
+}
+.navfut {
+	display: flex;
+	position: absolute;
+
+}
+footer ul li {
+	margin-right:20px;
+}
+.navfoot ul li a{
+
+	color:white;
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	font-style: italic;
+
+}
+.navfoot ul li{
+
+	list-style-type: none;
+	padding: 3px;
+}
+.navfoot ul li a:hover{
+	color: #b0b0b0;
+	transition: 0.5s;
+}
+.container{
+
+	display: flex;
+	justify-content: end;
+	margin-right: 250px;
+	padding-top:150px; 
+	font-size:12px;
+
+
+}
+.container p{
+	padding-left: 20px;
+	font-size:17px;
+	text-decoration:underline;
+}
+.contact{
+	margin: 25px;
+	padding: 0 200px;
+	display: flex;
+	justify-content: end;
+	text-align:center;
+	font-size:13px;
+}
+.contact p{
+	font-size:18px;
+	padding-top: 10px;
+}
+.mail{
+	padding-right: 30px;
+}
+
+.info{
+	margin-top: -150px;
+}
+.c{
+	text-align:center;
+	color: #5e5e5e;
+	font-size:15px; 
+}
+
